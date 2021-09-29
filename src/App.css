@@ -1,3 +1,41 @@
-body{
+body {
   text-align: center;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+form {
+  display: grid;
+  justify-items: center;
+  grid-gap: 10px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  width: 30%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
 }
