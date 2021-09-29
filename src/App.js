@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Profit or Loss</h1>
       </header>
+      <main>
+        <form>
+          <label htmlFor="initial">Initial Price</label>
+          <input type="number" name="initial" />
+          <label htmlFor="initial">Quantity Stocks</label>
+          <input type="number" name="quantity" />
+          <label htmlFor="initial">Current Price</label>
+          <input type="number" name="current" />
+          <button>Submit</button>
+        </form>
+      </main>
+      <footer>
+        Created with love by <a href="https://atulgairola.tech">Atul Gairola</a>
+      </footer>
     </div>
   );
 }
