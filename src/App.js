@@ -59,7 +59,7 @@ function App() {
           <input type="number" name="current" onChange={handleInputChange} />
           <button onClick={handleSubmit}>Submit</button>
         </form>
-        {result !== null && <p>{result}</p>}
+        {result !== null && <p className="result" >{result}</p>}
       </main>
       <footer>
         Created with love by <a href="https://atulgairola.tech">Atul Gairola</a>

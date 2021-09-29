@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background: #858ef8;
 }
 
 header {
@@ -30,6 +31,9 @@ input {
 button {
   padding: 10px 20px;
   font-size: 1.1rem;
+  background: #6be1ba;
+  border: 1px solid #000;
+  cursor: pointer;
 }
 
 footer {
@@ -38,4 +42,10 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
+}
+
+.result {
+  margin: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
